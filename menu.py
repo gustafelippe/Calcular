@@ -40,3 +40,5 @@ def executar():
 
 if __name__ == "__main__":
     executar()
+
+list alterar 2
