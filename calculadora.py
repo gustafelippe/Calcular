@@ -1,8 +1,13 @@
 """Calculadora básica — projeto-base do curso de Git e CI/CD (ESCOLA FPFtech)."""
 
 
-def somar(a, b):
-    return a + b
+def somar(a):
+    soma = 0
+    for _ in range(a):
+        b =  float(input("Insira um numero: "))
+        soma += b
+
+    return soma
 
 
 def subtrair(a, b):
@@ -14,8 +19,10 @@ def multiplicar(a, b):
 
 
 def dividir(a, b):
-    if b == 0:
-        raise ValueError("Divisão por zero não é permitida.")
     return a / b
 
-LIST DE ALTERAR
+def potencia(a, b):
+	return pow(a,b)
+
+def raiz(a,b):
+	return pow(a,(1/b))
